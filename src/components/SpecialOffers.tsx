@@ -44,23 +44,23 @@ const OfferCard: React.FC<OfferCardProps> = ({ title, description, image }) => {
 export const SpecialOffers: React.FC = () => {
   const offers = [
     {
-      title: "20% OFF on Birthday Cakes",
+      title: "Flat 20% OFF on Celebration Cakes",
       description:
-        "Celebrate birthdays with a special discount on beautifully handcrafted cakes.",
+        "Enjoy a flat 20% discount on birthday and anniversary cakes crafted with love.",
       image:
         "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=80",
     },
     {
-      title: "Free Candles on Orders Above ₹800",
+      title: "Free Same-Day Delivery",
       description:
-        "Make every celebration brighter with complimentary candles on eligible orders.",
+        "Get your cake delivered on the same day at no extra cost. Order before 6 PM.",
       image:
         "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=80",
     },
     {
-      title: "Free Greeting Card on Custom Cakes",
+      title: "Cake + Cupcakes Combo Offer",
       description:
-        "Add a personal touch with a free greeting card on every custom cake order.",
+        "Order any cake and get 4 delicious cupcakes free. Perfect for parties and celebrations.",
       image:
         "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80",
     },

@@ -2,6 +2,15 @@ import React from "react";
 import { Button } from "./Button";
 import { DecorativeElements } from "./DecorativeElements";
 
+import birthdayCake from "../assets/cakes/bithdaycake.png";
+import anniversaryCake from "../assets/cakes/anniversarycake.png";
+import kidsThemeCake from "../assets/cakes/cake2.jpg";
+import partyCake from "../assets/cakes/partycake.png";
+import chocolateCake from "../assets/cakes/chocolatetruffel.png";
+import cupcake from "../assets/cakes/cupcake.png";
+import designerCake from "../assets/cakes/redvelvate.png";
+import customCake from "../assets/cakes/fruitcake.png";
+
 interface CategoryCardProps {
   title: string;
   description: string;
@@ -50,50 +59,42 @@ export const CakeCategories: React.FC = () => {
     {
       title: "Birthday Cakes",
       description: "Make birthdays unforgettable with beautiful custom cakes.",
-      image:
-        "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=80",
+      image: birthdayCake,
     },
     {
       title: "Anniversary Cakes",
       description: "Elegant cakes for precious celebrations.",
-      image:
-        "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=900&q=80",
+      image: anniversaryCake,
     },
     {
       title: "Kids Theme Cakes",
       description: "Fun and creative cakes for little smiles.",
-      image:
-        "https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=900&q=80",
+      image: kidsThemeCake,
     },
     {
       title: "Party Cakes",
       description: "Perfect cakes for every special gathering.",
-      image:
-        "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80",
+      image: partyCake,
     },
     {
       title: "Chocolate Cakes",
       description: "Rich and indulgent creations for chocolate lovers.",
-      image:
-        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      image: chocolateCake,
     },
     {
       title: "Cupcakes",
       description: "Mini delights for parties and gifting.",
-      image:
-        "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=900&q=80",
+      image: cupcake,
     },
     {
       title: "Designer Cakes",
       description: "Luxury handcrafted cakes with artistic designs.",
-      image:
-        "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80",
+      image: designerCake,
     },
     {
       title: "Custom Cakes",
       description: "Create your own cake with unique design and flavor.",
-      image:
-        "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=900&q=80",
+      image: customCake,
     },
   ];
 

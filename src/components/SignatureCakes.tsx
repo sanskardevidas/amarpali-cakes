@@ -3,6 +3,12 @@ import { Star } from "lucide-react";
 import { Button } from "./Button";
 import { DecorativeElements } from "./DecorativeElements";
 
+import chocolateTruffel from "../assets/cakes/chocolatetruffel.png";
+import redVelvate from "../assets/cakes/redvelvate.png";
+import butterscotchCake from "../assets/cakes/butterscotchcake.png";
+import fruitCake from "../assets/cakes/fruitcake.png";
+import rainbowCake from "../assets/cakes/rainbowcake.png";
+
 interface CakeCardProps {
   name: string;
   price: number;
@@ -61,33 +67,28 @@ export const SignatureCakes: React.FC = () => {
   const cakes = [
     {
       name: "Chocolate Truffle Cake",
-      price: 900,
-      image:
-        "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80",
+      price: 400,
+      image: chocolateTruffel,
     },
     {
       name: "Red Velvet Cake",
-      price: 1100,
-      image:
-        "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=80",
+      price: 500,
+      image: redVelvate,
     },
     {
       name: "Butterscotch Cake",
-      price: 850,
-      image:
-        "https://images.unsplash.com/photo-1621303837174-89787a7d4729?auto=format&fit=crop&w=900&q=80",
+      price: 400,
+      image: butterscotchCake,
     },
     {
-      name: "Black Forest Cake",
-      price: 800,
-      image:
-        "https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=900&q=80",
+      name: "Fruit Cake",
+      price: 500,
+      image: fruitCake,
     },
     {
-      name: "Pineapple Cake",
-      price: 750,
-      image:
-        "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80",
+      name: "Rainbow Cake",
+      price: 400,
+      image: rainbowCake,
     },
   ];
 
@@ -99,15 +100,13 @@ export const SignatureCakes: React.FC = () => {
       <DecorativeElements />
 
       <div className="container relative z-10 mx-auto px-14 sm:px-8 lg:px-12 xl:px-16">
-        <div className="mx-auto mb-10 max-w-2xl text-center space-y-3 sm:mb-12 sm:space-y-4 lg:mb-14">
+        <div className="mx-auto mb-10 max-w-2xl space-y-3 text-center sm:mb-12 sm:space-y-4 lg:mb-14">
           <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent-pink sm:text-xs sm:tracking-[0.25em]">
             Bakery Favorites
           </p>
-
           <h2 className="font-playfair text-3xl font-bold text-text-primary sm:text-4xl lg:text-6xl">
             Signature Cakes
           </h2>
-
           <p className="text-sm leading-6 text-text-primary/70 sm:text-base sm:leading-7 lg:text-lg">
             Our most loved creations, handcrafted to make every celebration
             sweeter and more memorable.
@@ -121,7 +120,6 @@ export const SignatureCakes: React.FC = () => {
         </div>
       </div>
 
-      {/* smooth blend into next pink section */}
       <div className="pointer-events-none absolute bottom-0 left-0 h-20 w-full bg-gradient-to-b from-transparent via-bakery-pink/35 to-bakery-pink sm:h-24 lg:h-28" />
     </section>
   );
